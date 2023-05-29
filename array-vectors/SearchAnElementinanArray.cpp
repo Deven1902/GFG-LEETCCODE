@@ -6,6 +6,8 @@ Array problem.
 dicculty basic. 
 */
 
+// time complexity:- O(n)
+// space complexity:- O(1)
 
 class Solution{
     public:
