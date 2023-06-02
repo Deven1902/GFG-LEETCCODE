@@ -7,6 +7,17 @@ Problem Link:- https://practice.geeksforgeeks.org/problems/binary-search-1587115
 Cpp solution below. 
 */
 
+// the solution below is linear search. 
+        
+        /* 
+        for(int i = 0; i<n; i++) {
+            if(arr[i] == k)
+            
+                return i;
+        }
+        return -1; 
+        */
+---------------------------------------------------------------------------------------------------------------------------------------------
 /* 
 Binary Search Algorithm: The basic steps to perform Binary Search are:
 
@@ -22,16 +33,42 @@ Binary Search Algorithm: The basic steps to perform Binary Search are:
 
 // space:- O(1)
 
+
 class Solution {
   public:
     int binarysearch(int arr[], int n, int k) {
         // code here
+       
+        //below is the solution for binary search. 
         
-        for(int i = 0; i<n; i++) {
-            if(arr[i] == k)
+        Conditions for when to apply Binary Search algorithm:
+        
+        -> The data structure must be sorted.
+        -> Access to any element of the data structure takes constant time.
+        
+        int start=0;
+        int end=n-1;
+        int mid=end-start/2 ;
+        
+        while(start<=end){
+            mid=end-start/2;
             
-                return i;
+            if(arr[mid]==k) {
+                // Check if x is present at mid
+                return mid;
+            }
+            
+            else if(k>arr[mid]) {
+                // If x greater, ignore left half
+                start=mid+1;
+            }
+            
+            else {
+                // If x is smaller, ignore right half 
+                end=mid-1;
+            }
+        
         }
-        return -1; 
+        return -1;
     }
 };
