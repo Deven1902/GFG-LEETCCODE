@@ -40,3 +40,7 @@ class Solution {
     }
 };
 */
+
+
+Time Complexity: O(N);
+Auxiliary Space: O(1); 
