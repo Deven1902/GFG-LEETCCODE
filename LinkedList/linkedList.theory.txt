@@ -1,0 +1,8 @@
+// advantages of LinkedList. 
+
+Easy insertion and deletion from the data structure. 
+Round Robin implementation is easier than the array implementation. 
+
+merging 2 LinkedLists is faster than that of arrays. 
+
+easier implementation of Queue and Dequere. 
