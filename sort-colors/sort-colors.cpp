@@ -9,7 +9,7 @@ public:
                 low++;
                 mid++;
             }
-            
+
             else if(nums[mid] ==1) 
                 mid++;
 
@@ -19,4 +19,7 @@ public:
             }
         }
     }
+
+    // time complexity:- O(n)
+    // space complexity:- O(1)
 };
