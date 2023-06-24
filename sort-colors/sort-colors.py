@@ -16,3 +16,6 @@ class Solution:
                 i-=1
             i=i+1
         return nums
+
+        # time complexity:- O(n)
+        # space complexity:- O(1)
