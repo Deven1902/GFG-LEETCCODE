@@ -1,6 +1,8 @@
 class Solution {
 public:
 
+// solution using Djikstras Algo
+
     typedef pair<double,int> pii;
     vector<vector<pair<int,double>>> buildGraph(int n,vector<vector<int>>& roads,vector<double>&prob){
         vector<vector<pair<int,double>>> graph(n);
