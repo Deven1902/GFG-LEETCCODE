@@ -20,5 +20,8 @@ public:
 
         return res;
 
+        // time complexity:- O(n)
+        // space complexity:- O(1)
+
     }
 };
