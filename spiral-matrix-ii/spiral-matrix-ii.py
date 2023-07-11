@@ -22,3 +22,6 @@ class Solution:
       ans[n // 2][n // 2] = count
 
     return ans
+
+# time complexity:- O(N^2)
+# space complexity:- O(N^2)
