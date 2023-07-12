@@ -7,3 +7,6 @@ class Solution:
             n/=4
 
         return n==1
+
+        #  T.C = O(log n)
+        # S.C = O(1)
