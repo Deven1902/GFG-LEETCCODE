@@ -18,4 +18,6 @@ public:
 
         return powerOfX(x,n);
     }
+    // TC:0(logn)[n is being divided into half continously]
+    // SC:0(logn) [recursion uses callstack]
 };
