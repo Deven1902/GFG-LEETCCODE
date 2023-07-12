@@ -7,3 +7,7 @@ class Solution:
             n/=2
 
         return n==1
+
+        # time complexity :- O(log n) 
+
+        # Space complexity :- O(n)
