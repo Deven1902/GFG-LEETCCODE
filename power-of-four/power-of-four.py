@@ -8,5 +8,5 @@ class Solution:
 
         return n==1
 
-        #  T.C = O(log n)
+        # T.C = O(log n)
         # S.C = O(1)
