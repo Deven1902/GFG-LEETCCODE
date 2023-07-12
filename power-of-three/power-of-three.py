@@ -7,3 +7,6 @@ class Solution:
             n/=3
 
         return n==1
+
+        # time complexity :- O(log n)
+        # space complexity :- O(1)
