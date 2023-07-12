@@ -20,4 +20,6 @@ public:
     }
     // TC:0(logn)[n is being divided into half continously]
     // SC:0(logn) [recursion uses callstack]
+
+    //  this solution can be still optimized to make on without taking any space. 
 };
