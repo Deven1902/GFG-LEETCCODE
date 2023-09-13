@@ -1,5 +1,8 @@
 class Solution:
     def candy(self, ratings: List[int]) -> int:
+
+        #  if we have  a higher rating on the next child, then give it one more candy. 
+
         n = len(ratings)
         give = [1] * n
 
@@ -12,3 +15,4 @@ class Solution:
                 give[i] = give[i+1] + 1
 
         return sum(give)
+
