@@ -16,3 +16,8 @@ class Solution:
 
         return sum(give)
 
+# time complexity:- O(n) 
+    # since parsing the whole array. 
+
+# space complexity:- O(n) 
+    # deu to the new array of give. 
