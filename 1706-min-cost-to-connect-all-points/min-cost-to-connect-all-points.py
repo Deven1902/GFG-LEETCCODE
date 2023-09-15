@@ -1,3 +1,8 @@
+# typical MST problem
+
+# Time complexity:- O(n*n)
+# space complexity:- 
+
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
 
