@@ -17,3 +17,7 @@ class Solution:
                 return nums[i]
 
         return -1
+
+
+# time complexity:-  O(n log n);
+# space complexity:- O(1); 
