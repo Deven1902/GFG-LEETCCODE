@@ -18,3 +18,6 @@ class Solution:
         
         else:
             return False
+
+# time complexity:- O(n)
+# space complexity:- O(1)
