@@ -18,3 +18,6 @@ class Solution:
                     odd -=1
 
         return nums
+
+# time complexity:- O(n) 
+# space complexity:- O(1) 
