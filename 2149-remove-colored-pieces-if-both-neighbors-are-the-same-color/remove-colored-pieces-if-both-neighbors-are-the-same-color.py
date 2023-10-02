@@ -11,3 +11,6 @@ class Solution:
                 else: b += 1
 
         return a>b
+
+# Time complexity: O(n)
+# Space complexity: O(1)
