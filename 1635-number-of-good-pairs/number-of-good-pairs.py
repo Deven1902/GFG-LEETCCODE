@@ -1,12 +1,17 @@
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
-
-        # naive solution
-        cnt = 0
-        for i in range (0, len(nums)):
-            for j in range(i+1, len(nums)):
-                if nums[i] == nums[j]:
-                    cnt +=1
-
         
+        # hash map solution
+
+        hashMap = {}
+        cnt = 0
+
+        for n in nums:
+            if n in hashMap:
+                cnt = cnt + hashMap[n]
+                hashMap[n] +=1
+
+            else:
+                hashMap[n] = 1
+
         return cnt
