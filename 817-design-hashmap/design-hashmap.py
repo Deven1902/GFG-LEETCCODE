@@ -1,3 +1,11 @@
+# Appraoch 
+
+'''
+1) We can use an array of a fixed size to store key-value pairs.
+2) The array will have a predefined size, and we'll use a simple hash function to determine the index at which each key-value pair should be stored.
+3) We'll use a linked list to handle collisions.
+
+'''
 class MyHashMap:
 
     def __init__(self):
@@ -24,6 +32,8 @@ class MyHashMap:
                 self.hashmap.pop(i)
                 return
 
+# time complexity:- O(N)
+# space complexity:- O(n+m)
 
 # Your MyHashMap object will be instantiated and called as such:
 # obj = MyHashMap()
