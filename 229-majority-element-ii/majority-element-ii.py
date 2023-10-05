@@ -18,3 +18,6 @@ class Solution:
                 a.append(i)
 
         return a
+
+# time complexity:- O(n)
+# sapce complexity:- O(n)
