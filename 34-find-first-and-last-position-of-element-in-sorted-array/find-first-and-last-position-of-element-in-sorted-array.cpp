@@ -16,3 +16,6 @@ public:
         return {f , l}; 
     }
 };
+
+// time complexity:- O(n)
+// space complexigty:- O(1)
