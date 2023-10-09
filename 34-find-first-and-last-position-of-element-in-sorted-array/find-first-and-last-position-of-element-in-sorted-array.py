@@ -1,3 +1,12 @@
+# Apporach:- 
+
+# initialize 2 vars First and Last to -1. 
+
+# iterate throguh array -> if element matches target, then set first to the index of the matched elememtn. 
+#                       -> update the last to current index. 
+
+# return result (values of first and last). 
+
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         f = -1 # initialize first to -1
