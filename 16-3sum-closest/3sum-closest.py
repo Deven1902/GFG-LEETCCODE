@@ -23,3 +23,7 @@ class Solution:
                     right_point -= 1
 
         return closest_sum
+
+# time complexity:- O(N^2) 
+
+# space complexity:- O(1).
