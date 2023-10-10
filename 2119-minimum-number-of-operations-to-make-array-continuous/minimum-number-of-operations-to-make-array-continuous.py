@@ -13,3 +13,11 @@ class Solution:
             max_length = max(max_length, len(queue))
 
         return N - max_length
+
+
+# Time complexity
+# Sorting: O(NlogN)
+# Loop: O(N)
+# -> O(NlogN) 
+
+# Space complexity:- O(n) -> maitains a queue of n elements. 
