@@ -13,5 +13,12 @@ class Solution:
                 new_ways[i] = (ways[i] + ways[i-1] + ways[i+1]) % (10 ** 9 + 7)
 
             ways = new_ways
-            
+
         return ways[1]
+
+
+# time complexty:- O(n^2) => O(steps * size)
+# coz of the nested loops. 
+
+# space complexity:- O(n) => O(size)
+# coz of the new array pf size that we made, it took up the extra space. 
