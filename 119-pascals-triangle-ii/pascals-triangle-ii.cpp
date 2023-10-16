@@ -33,3 +33,11 @@ public:
         return e;
     }
 };
+
+// time complexity:- O(n^2) -> nested loop.
+
+// space complexity:- O(rowI^2) -> this is because we have n rows in pascals traingle. 
+                                // and there are almost n elements in each rows. 
+                                // which makes it n^2. 
+
+// need to have a more optimised solution. 
