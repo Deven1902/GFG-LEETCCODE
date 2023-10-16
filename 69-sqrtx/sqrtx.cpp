@@ -31,3 +31,7 @@ public:
         return ans; 
     }
 };
+
+// time xomplexity:- O(log n) -> This is because, in each iteration, the search space is divided by half.
+
+// space compelxity:- O(1) -> constant. 
