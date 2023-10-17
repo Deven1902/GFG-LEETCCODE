@@ -49,3 +49,6 @@ public:
         return true;
     }
 };
+
+// tiem:- O(N) 
+// space:- O(N)
