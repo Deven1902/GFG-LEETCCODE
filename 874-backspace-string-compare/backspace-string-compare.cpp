@@ -8,7 +8,7 @@
 // We’ve to do this operation for both the strings. And at last we’ll compare both the stacks
 // If both stacks are equal then return true, else false. 
 
-/* class Solution {
+class Solution {
 public:
     bool backspaceCompare(string s, string t) {
         stack<char> m1, m2;
@@ -40,48 +40,8 @@ public:
  
         return false; 
     }
-}; */
+};
 
 // time complexity:- O(n+m) -> where n amd m are lenghts of two strings. teh code iterates over the two sterings. 
 
 // space complexity:- O(n+m) -> where n amd m are lenghts of two strings. that much space is used in the stack. 
-
-// alternative approach:- 
-
-class Solution {
-public:
-    bool backspaceCompare(string s, string t) {
-        int x=0, y=0;
-        
-        // for string s
-        for(int i=0; i<s.size(); i++){
-            if(s[i] == '#'){
-                x--;
-                x = max(0, x);
-            }
-            else{
-                s[x] = s[i];
-                x++;
-            }
-        }
-        // for string t
-        for(int i=0; i<t.size(); i++){
-            if(t[i] == '#'){
-                y--;
-                y = max(0, y);
-            }
-            else{
-                t[y] = t[i];
-                y++;
-            }
-        }
-        
-        if(x != y) return false;
-        else{
-            for(int i=0; i<x; i++){
-                if(s[i] != t[i]) return false;
-            }
-            return true;
-        }
-    }
-};
