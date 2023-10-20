@@ -95,6 +95,9 @@ public:
     }
 };
 
+// time complexity:- O(N) -> N is total no of integers in the list 
+
+// space complexity:- O(N) -> N is total no of integers in the list 
 /**
  * Your NestedIterator object will be instantiated and called as such:
  * NestedIterator i(nestedList);
