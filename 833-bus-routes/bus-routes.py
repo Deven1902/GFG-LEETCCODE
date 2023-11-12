@@ -26,3 +26,6 @@ class Solution:
                             queue.append((stop,new_changes+1))
                             
         return -1                   
+
+# time complexity:- O(E + V log V)
+# space complexity:- O(V + E)
