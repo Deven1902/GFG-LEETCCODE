@@ -7,3 +7,6 @@ class Solution:
                 arr[i] = arr[i-1]+1
 
         return arr[-1]
+
+# Time complexity:- O(N log N)
+# space complexity:- O(N), N +> length of the input array 
