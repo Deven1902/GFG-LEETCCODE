@@ -8,3 +8,6 @@ class Solution:
                 res.append('1')
 
         return ''.join(res)
+
+# time complexity:- O(n)
+# space complexity:- O(n)
