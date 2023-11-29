@@ -6,3 +6,6 @@ class Solution:
             cnt +=1
 
         return cnt
+
+# time complexity:- O(n)
+# space complexity:- O(1)
