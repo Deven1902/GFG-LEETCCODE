@@ -1,11 +1,6 @@
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
-        ans=0
-        for word in words:
-            for ch in word:
-                if word.count(ch)>chars.count(ch):
-                    break
-            else:
-                ans+=len(word)
         
-        return ans
+        words = [collections.Counter(word) for word in words]
+        chars = collections.Counter(chars)
+        return sum([sum(list(w.values())) for w in words if all([chars[i] >= w[i] for i in w])])
