@@ -12,3 +12,6 @@ class Solution:
 
         # If no such triple is found in the number, return an empty string.
         return ""
+
+# time complexity:- O(N)
+# space complexity:- O(1)
