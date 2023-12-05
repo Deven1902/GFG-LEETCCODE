@@ -1,7 +1,7 @@
 class Solution:
     def numberOfMatches(self, n: int) -> int:
         # code here
-        
+
         ans = 0
         while n > 1:
             if n%2 != 0: # if no of teams is odd
@@ -11,3 +11,6 @@ class Solution:
                 ans += int(n/2)
                 n = int(n/2)
         return ans
+
+# time complexity: o(log N)
+# space complexity: o(log N)
