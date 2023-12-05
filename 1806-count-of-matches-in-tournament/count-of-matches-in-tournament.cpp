@@ -14,3 +14,6 @@ public:
         return ans;
     }
 };
+
+// time complexity: O(log N)
+// space complexity: O(1)
