@@ -28,3 +28,6 @@ public:
         return s;
     }
 };
+
+// time complexity:- O(h) -> h is the height of the tree. 
+// space complexity:- O(h) -> h is the height of the tree. 
