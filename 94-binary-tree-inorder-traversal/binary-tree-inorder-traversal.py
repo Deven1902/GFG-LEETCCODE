@@ -20,3 +20,6 @@ class Solution:
             root = root.right
         
         return res   
+
+    # time complexity:- O(n) 
+    # space complexity:- O(n)
