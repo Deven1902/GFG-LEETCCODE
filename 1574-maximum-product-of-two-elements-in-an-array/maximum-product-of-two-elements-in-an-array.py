@@ -4,3 +4,6 @@ class Solution:
         nums.remove(max_1)
         max_2 = max(nums)
         return (max_1-1)*(max_2-1)
+
+        # time xomplexity:- O(n) 
+        # space complexity:- O(1)
