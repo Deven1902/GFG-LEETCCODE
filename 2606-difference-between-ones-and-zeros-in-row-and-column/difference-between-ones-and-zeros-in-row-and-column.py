@@ -12,3 +12,6 @@ class Solution:
                 diff[i][j] = 2 * (r[i] + c[j]) - x  # Calculate difference for each cell
 
         return diff
+
+# time complexity:- O(mn) 
+# space complexity:- O(m+n)
