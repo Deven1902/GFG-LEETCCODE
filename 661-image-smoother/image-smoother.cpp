@@ -22,4 +22,7 @@ public:
         }
         return result;
     }
-};
+}; 
+
+// time complexity:- O(mn) 
+// space complexity:- O(mn)
