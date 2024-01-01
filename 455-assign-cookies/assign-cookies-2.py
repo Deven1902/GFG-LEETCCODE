@@ -8,3 +8,7 @@ class Solution:
                 i += 1
             j += 1
         return i
+
+# Time Complexity: O(n log n)
+# Space Complexity: O(n) 
+
