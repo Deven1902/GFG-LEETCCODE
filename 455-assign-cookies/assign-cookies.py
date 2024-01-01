@@ -20,3 +20,6 @@ class Solution:
                 cookie_index += 1  # Move to the next cookie for the next child
 
         return content_children
+
+# time complexity:- O(n log n) 
+# space complexity:- O(n + log n)
