@@ -23,6 +23,15 @@
 //     }
 // }; 
 
+
+// Approach:- 
+// Step-1: Sort all the arrays acc to start time. (using set to sort arrays)
+// Step-2: Start recursion from 0. And we will have only two choice take that job or to no take that job. 
+
+    // 1. If we take that job, then found lower bound of the endTime of that job we have taken in startTIme array. It will give us the index number of the job which we can do next. 
+
+    // 2. If we don't take that job then simply go to the next index number. 
+
 class Solution {
 public:
     int solve(int i, vector<int>& startTime, vector<int>& endTime, vector<int>& profit, vector<int> &dp){
@@ -59,3 +68,6 @@ public:
         return solve(0, startTime, endTime, profit, dp);
     }
 };
+
+// time complexity:- O(n) 
+// space complexity:- O(n) 
