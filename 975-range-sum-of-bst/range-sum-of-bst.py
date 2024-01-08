@@ -29,3 +29,6 @@ class Solution:
         preOrder(root, low, high)
 
         return ans
+
+# time complexity:- O(n) 
+# space complexity:- O(H) -> h = height of the bst
