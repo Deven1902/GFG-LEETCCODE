@@ -10,7 +10,25 @@
  */
 class Solution {
 public:
+
+    ListNode *reverseRecursion(ListNode *prev, ListNode *curr) {
+        if(curr == NULL) return prev;  //base case; 
+
+        ListNode *newN = curr -> next; 
+        curr -> next = prev; 
+        prev = curr; 
+        curr = newN; 
+
+        ListNode *ans = reverseRecursion(prev, curr); 
+
+        return ans;
+    }
+
+
     ListNode* reverseList(ListNode* head) {
+        
+        // iterative solution \U0001f447
+        /*
         ListNode *prev = NULL;
         ListNode *curr = head; 
 
@@ -29,5 +47,14 @@ public:
             curr = nextN; 
         }
         return prev; 
+
+        */ 
+
+        // recursive solution \U0001f447 
+
+        ListNode *prev = NULL;
+        ListNode *curr = head; 
+
+        return reverseRecursion(prev, curr); 
     }
 };
