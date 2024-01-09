@@ -15,4 +15,8 @@ class Solution:
 
             return dfs(root.left) + dfs(root.right) 
 
-        return dfs(root1) == dfs(root2)
+        return dfs(root1) == dfs(root2) 
+
+# time complexity:- O(N), where N is the total number of nodes in both trees. 
+
+# space complexity:- O(H), H is the height of th  tree, the height of tree =  the depth of the memory call stack. 
