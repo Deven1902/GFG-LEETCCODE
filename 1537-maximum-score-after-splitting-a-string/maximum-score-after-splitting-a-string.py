@@ -1,7 +1,5 @@
 class Solution:
     def maxScore(self, s: str) -> int:
-        # code here
-        
         n=len(s)
         sum=s.count('1', 1)
         if s[0]=='0': sum+=1
