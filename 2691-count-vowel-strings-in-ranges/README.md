@@ -37,3 +37,17 @@ We return [2,3,0].
 	<li><code>1 &lt;= queries.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>0 &lt;= l<sub>i</sub> &lt;= r<sub>i</sub> &lt;&nbsp;words.length</code></li>
 </ul>
+
+#Solution - Prefix Sum 
+
+### Solution 2: Prefix Sum
+
+We can create a prefix sum array $s$ of length $n+1$, where $s[i]$ represents the number of strings that start and end with a vowel in the first $i$ strings of the array $words$. Initially, $s[0] = 0$.
+
+Next, we iterate through the array $words$. If the current string starts and ends with a vowel, then $s[i+1] = s[i] + 1$, otherwise $s[i+1] = s[i]$.
+
+Finally, we iterate through each query $(l, r)$. Therefore, the answer to the current query is $s[r+1] - s[l]$.
+
+The time complexity is $O(n + m)$, and the space complexity is $O(n)$. Where $n$ and $m$ are the lengths of the arrays $words$ and $queries$, respectively.
+
+<!-- tabs:start -->
