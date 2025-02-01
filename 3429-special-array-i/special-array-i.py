@@ -3,4 +3,7 @@ class Solution:
         for i in range(len(nums) - 1):
             if nums[i] % 2 == nums[i+1] % 2:
                 return False
-        return True
+        return True 
+
+# time complexity: O(n) 
+# space complexity: O(1) 
