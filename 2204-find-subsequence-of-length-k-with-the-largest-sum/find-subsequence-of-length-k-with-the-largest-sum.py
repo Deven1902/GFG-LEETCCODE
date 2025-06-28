@@ -7,3 +7,6 @@ class Solution:
                 res.append(num)
                 counts[num] -= 1
         return res
+
+# Time complexity: O(Nlog n)
+# Space complexity: O(N)
