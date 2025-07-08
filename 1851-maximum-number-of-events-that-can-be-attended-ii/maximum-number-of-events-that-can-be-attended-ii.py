@@ -38,3 +38,6 @@ class Solution:
             return memo[(i, k)]
         
         return helper(0, k)
+
+        # time complexity: O(n logn)
+        # space complexity: O(n)
