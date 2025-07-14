@@ -12,3 +12,6 @@ class Solution:
             current_node = current_node.next
         linked_list_integer = int(linked_list_binary,2)
         return linked_list_integer
+
+# time complexity: O(n^2) 
+# space complexity: O(n)
