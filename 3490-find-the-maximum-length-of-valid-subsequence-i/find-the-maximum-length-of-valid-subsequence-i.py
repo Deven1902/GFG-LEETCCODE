@@ -15,3 +15,6 @@ class Solution:
                 alt_len += 1
 
         return max(alt_len, cnt_even, cnt_odd)
+
+# time complexity: O(n)
+# space complexity: O(1)
