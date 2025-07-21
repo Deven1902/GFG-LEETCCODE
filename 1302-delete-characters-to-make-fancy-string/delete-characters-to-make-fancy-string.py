@@ -15,3 +15,6 @@ class Solution:
                 ans += s[i]
 
         return ans
+
+# time complexity: O(n)
+# space complexity: O(n)
