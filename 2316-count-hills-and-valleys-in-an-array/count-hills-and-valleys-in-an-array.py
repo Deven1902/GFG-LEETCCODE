@@ -26,3 +26,6 @@ class Solution:
                 valleys += 1
 
         return hills + valleys
+
+        # time complexity: O(n2)
+        # space complexity: O(n)
