@@ -8,3 +8,6 @@ class Solution:
                 toAdd.append(last[j] + last[j + 1])
             out.append(toAdd)
         return out
+
+# time complexity: O(n^2) 
+# space complexity: O(n)
